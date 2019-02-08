@@ -55,7 +55,7 @@ function updateDelete(valor,email){
     }
     else
     {
-        alert("Solo el usuario propietario puede eiminar el mensaje");
+        alert("Solo el usuario propietario puede eliminar el mensaje");
 
     }
 }
@@ -71,7 +71,7 @@ function updateDeleteChild(valor,valorChild,email){
     }
     else
     {
-        alert("Solo el usuario propietario puede eiminar el mensaje");
+        alert("Solo el usuario propietario puede eliminar el mensaje");
     }
   
  }
@@ -142,7 +142,7 @@ function sendDataToFirebase(event){
     }
     else
     {
-        alert("Mensaje y/o Usuario no puede estar en balnco");
+        alert("Mensaje y/o Usuario no puede estar en blanco");
     }
 }
  //Parámetros para conexión de base de datos
